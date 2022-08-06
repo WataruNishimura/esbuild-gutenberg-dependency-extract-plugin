@@ -1,6 +1,6 @@
 {
   "name": "esbuild-gutenberg-dependency-extract-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "repository": "https://github.com/WataruNishimura/esbuild-gutenberg-dependency-extract-plugin.git",
   "author": "WataruNishimura",
