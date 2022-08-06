@@ -146,4 +146,4 @@ function dependencyExtractPlugin() {
   }
 }
 
-export default dependencyExtractPlugin
+module.exports = dependencyExtractPlugin
