@@ -1,0 +1,24 @@
+{
+  "name": "esbuild-gutenberg-dependency-extract-plugin",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "repository": "https://github.com/WataruNishimura/esbuild-gutenberg-dependency-extract-plugin.git",
+  "author": "WataruNishimura",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.2",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node build.js",
+    "build": "cross-env NODE_ENV=production node build.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "js-md5": "^0.7.3",
+    "json2php": "^0.0.5"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "esbuild": "^0.14.53",
+    "esbuild-plugin-clear": "^1.0.1",
+    "jest": "^28.1.3"
+  }
+}
