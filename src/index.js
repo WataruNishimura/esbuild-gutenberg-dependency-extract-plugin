@@ -6,6 +6,7 @@ const md5 = require("js-md5")
 // Mapping Object for Dependency Extraction
 const dependenciesMappings = {
   "@wordpress/components": "wp.components",
+  "@wordpress/api": "wp.api",
   "@wordpress/api-fetch": "wp.apiFetch",
   "@wordpress/edit-post": "wp.editPost",
   "@wordpress/element": "wp.element",
@@ -25,6 +26,7 @@ const dependenciesMappings = {
 
 const handleMappings = {
   "@wordpress/components": "wp-components",
+  "@wordpress/api": "wp-api",
   "@wordpress/api-fetch": "wp-api-fetch",
   "@wordpress/edit-post": "wp-edit-post",
   "@wordpress/element": "wp-element",
