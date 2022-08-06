@@ -59,7 +59,7 @@ class DependenciesManifest {
 
   // return file hash as version and dependencies handle
   getAsset() {
-    const buffer = readFileSync(this.path)
+    const buffer = fs.readFileSync(this.path)
     const hash = md5(buffer)
     return {
       dependencies: this.dependencies,
@@ -79,7 +79,7 @@ function dependencyExtractPlugin() {
   );
 
   return {
-    name: "wp-dependency-extract",
+    name: "gutenberg-dependency-extract-plugin",
     setup(build) {
 
       // initialize manifest
